@@ -35,7 +35,6 @@
 
 int yylex(void);
 int yyerror(const char *, ...);
-int yyparse(void);
 
 int lineno;
 int errors;
