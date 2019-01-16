@@ -58,6 +58,7 @@ find_group(int mype, int *start_pe)
 	}
 	WARN("Invalid PE #%d\n", mype);
 	ASSERT(0);
+	/* NOTREACHED */
 }
 
 /*
